@@ -8,13 +8,20 @@ body {
   width: 600px;
 }
 figure {
+  max-width: 550px;
   margin: 0 auto;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+
+  background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 100%);
 }
+
 figcaption {
   margin: 0 auto;
-  padding: 10px;
+  padding: 12px;
   display: flex;
   justify-content: space-evenly;
   line-height: 1.2;
